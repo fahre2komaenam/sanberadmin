@@ -11,8 +11,6 @@
   <link rel="stylesheet" href=" {{asset('adminlte/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-   <!-- DataTables -->
-  @stack('csstable')
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="{{asset('adminlte/dist/css/adminlte.min.css')}}">
   <!-- Google Font: Source Sans Pro -->
@@ -61,9 +59,5 @@
 <script src="{{asset('adminlte/dist/js/demo.js')}}"></script>
 
 @stack('datatable')
-
-@stack('datatable2')
 </body>
 </html>
-
-
