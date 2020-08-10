@@ -55,7 +55,7 @@
                     <td>{{$key+1}}</td>
                     <td>{{$view->judul}}</td>
                     <td>{{$view->isi}}</td>
-                    <td> <a href="/pertanyaan/{{$view->id}}" class="btn btn-success btn-flat">Edit</a>  |
+                    <td> <a href="/pertanyaan/{{$view->id}}" class="btn btn-success btn-flat">Detail</a>  |
                         <form action="/pertanyaan/{{$view->id}}" method="post">
                             @csrf
                             @method('delete')
